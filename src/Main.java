@@ -2,7 +2,7 @@ import stacks.*;
 
 public class Main {
     public static void main(String[] args) {
-        ListaLigada pilha = new ListaLigada();
+        Interface pilha = new ListaLigada();
 
         pilha.push("Primeiro");
         pilha.push("Segundo");
